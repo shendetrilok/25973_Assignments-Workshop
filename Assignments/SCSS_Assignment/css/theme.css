@@ -1,0 +1,90 @@
+.theme-1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid blueviolet;
+  width: 600px;
+  height: 200px;
+  background-color: khaki;
+  font-size: 20px;
+  color: white;
+}
+
+.theme-1 .left {
+  width: 400px;
+  height: 135px;
+  margin-left: 7px;
+  margin-top: 7px;
+  background-color: darkcyan;
+  padding: 25px 25px;
+}
+
+.theme-1 .right {
+  width: 200px;
+  height: 135px;
+  margin: 7px;
+  background-color: cadetblue;
+  padding: 25px 25px;
+}
+
+.theme-1 .button {
+  color: white;
+  width: 140px;
+  height: 45px;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 70px;
+  font-size: 18px;
+  background-color: darksalmon;
+  border: 1px solid darksalmon;
+}
+
+.theme-2 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid blueviolet;
+  width: 600px;
+  height: 200px;
+  background-color: pink;
+  font-size: 20px;
+  color: white;
+}
+
+.theme-2 .left {
+  width: 400px;
+  height: 135px;
+  margin-left: 7px;
+  margin-top: 7px;
+  background-color: palevioletred;
+  padding: 25px 25px;
+}
+
+.theme-2 .right {
+  width: 200px;
+  height: 135px;
+  margin: 7px;
+  background-color: lightcoral;
+  padding: 25px 25px;
+}
+
+.theme-2 .button {
+  color: white;
+  width: 140px;
+  height: 45px;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 70px;
+  font-size: 18px;
+  background-color: #654321;
+  border: 1px solid #654321;
+}
+/*# sourceMappingURL=theme.css.map */
