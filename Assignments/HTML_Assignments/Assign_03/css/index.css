@@ -1,0 +1,15 @@
+#myDiv{
+    width: 250px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+#imgDrag{
+    width: 250px;
+    height: 70px;
+}
+
+p{
+    color: red;
+}
