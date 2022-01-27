@@ -1,0 +1,16 @@
+body{
+    margin-top: 200px;
+}
+
+table{
+    border:1px solid #ddd;
+}
+
+#header{
+    background-color:silver;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: greenyellow;
+}
