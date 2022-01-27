@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/calci.css">
+    <script src="../js/calci.js"></script>
+</head>
+<body>
+    <header><h1>Calculator</h1></header>
+    <div class="container">
+        <div>
+            <input id="output" type="text" placeholder="0" name="displayResult" />
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><input type="button" value="Standard" onclick=""></td>
+                    <td><input type="button" value="Scientific" onclick=""></td>
+                    <td><input type="button" value="Back" onclick="backSpace()"></td>
+                    <td><input type="button" value="/" onclick="display(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="display(value)"></td>
+                    <td><input type="button" value="8" onclick="display(value)"></td>
+                    <td><input type="button" value="9" onclick="display(value)"></td>
+                    <td><input type="button" value="*" onclick="display(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="display(value)"></td>
+                    <td><input type="button" value="5" onclick="display(value)"></td>
+                    <td><input type="button" value="6" onclick="display(value)"></td>
+                    <td><input type="button" value="-" onclick="display(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="display(value)"></td>
+                    <td><input type="button" value="2" onclick="display(value)"></td>
+                    <td><input type="button" value="3" onclick="display(value)"></td>
+                    <td><input type="button" value="+" onclick="display(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="C" onclick="clearDisplay()"></td>
+                    <td><input type="button" value="0" onclick="display(value)"></td>
+                    <td><input type="button" value="." onclick="display(value)"></td>
+                    <td><input type="button" value="=" onclick="solve()"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
