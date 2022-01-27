@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Embedding Script tag in HTML Document</title>
+        <script>
+            var headVar = 50;
+        </script>
+        <hr>
+    </head>
+    <body>
+        <script>
+            var bodyVar = 100;
+        </script>
+        <hr>
+        <script src="mathFunctions.js">
+        </script>
+        <script>
+            addNumbers(headVar,bodyVar);
+        </script>
+        <hr>
+    </body>
+</html>
