@@ -1,0 +1,71 @@
+$text : center;
+$header-color : silver;
+$navbar-color : black;
+$navbar-text : white;
+.header{
+    text-align: $text;
+    background-color: $header-color;
+}
+
+.navbar{
+    background-color: $navbar-color;
+    color: $navbar-text;
+    height: 50px;
+}
+
+.navbar > label{
+    margin-left: 10px;
+}
+
+.navbar > a{
+     margin-left: 10px;
+     font-size: 10px;
+     color: $navbar-text;
+}
+
+.view{
+    width: 80%;
+    display: flex;
+    flex-direction : column;
+    text-align: left;
+}
+
+.row-1{
+    display: flex;
+    flex-direction : row;
+    
+}
+
+div.row-1 > div{
+    margin-left: 5%;
+}
+
+.row-2{
+    @extend .row-1;
+
+}
+
+img{
+    width:90%;
+    height:20%;
+}
+
+div.col-1{
+    width: 70%;
+}
+
+
+.footer{
+    @extend .header;
+}
+
+
+@media screen and (max-width:375px){
+    .row-1{
+        display: flex;
+        flex-direction : column;
+        
+    }
+}
+
+
