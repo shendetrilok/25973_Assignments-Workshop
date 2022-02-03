@@ -1,0 +1,17 @@
+.blue{
+    color: white;
+    background-color: blue;
+}
+
+.search-width{
+    width: 80%;
+    border-radius: 5px;
+}
+
+.table_border{
+    border: 0.01px solid silver;
+}
+
+image{
+    height: 50%;
+}
